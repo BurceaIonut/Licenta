@@ -1,0 +1,1 @@
+C:\Users\Ionut\Desktop\ATM\Licenta\android\ATMessengerClient\crypto_engine\src\main\java\atm\licenta\crypto_engine\cpp\CMakeLists.txt

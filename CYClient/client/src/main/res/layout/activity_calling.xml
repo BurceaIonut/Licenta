@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:id="@+id/layout_calling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:padding="32dp">
+
+        <ImageView
+            android:id="@+id/image_profile_calling"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/profile_picture_placeholder"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_name_calling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FirstName LastName"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/text_status_calling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calling"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_incoming"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:padding="32dp">
+
+        <ImageView
+            android:id="@+id/image_profile_incoming"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/profile_picture_placeholder"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_name_incoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FirstName LastName"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/text_status_incoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incoming_call"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:id="@+id/button_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_accept"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:text="@string/accept"
+                android:layout_marginEnd="16dp" />
+
+            <Button
+                android:id="@+id/btn_decline"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:text="@string/decline" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webview_call"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

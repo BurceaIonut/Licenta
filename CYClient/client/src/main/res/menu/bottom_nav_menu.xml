@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_conversations"
+        android:icon="@drawable/base_chat_icon"
+        android:title="Conversations" />
+    <item
+        android:id="@+id/nav_calls"
+        android:icon="@drawable/base_calls_icon"
+        android:title="Calls" />
+</menu>

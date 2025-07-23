@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960">
+    
+    <!-- Bifa 1 -->
+    <path
+        android:fillColor="#48454E"
+        android:pathData="M240,720 L60,540 L120,480 L240,600 L480,360 L540,420 L240,720 Z" />
+
+    <!-- Bifa 2 -->
+    <path
+        android:fillColor="#48454E"
+        android:pathData="M420,720 L240,540 L300,480 L420,600 L720,300 L780,360 L420,720 Z" />
+
+    <!-- Bifa 3 -->
+    <path
+        android:fillColor="#48454E"
+        android:pathData="M600,720 L420,540 L480,480 L600,600 L840,360 L900,420 L600,720 Z" />
+</vector>

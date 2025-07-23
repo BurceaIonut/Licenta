@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:gravity="end">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_message_sent"
+        android:padding="10dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="4dp"
+        android:elevation="2dp">
+
+        <TextView
+            android:id="@+id/text_message_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- Row pentru ora + bife -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_gravity="end">
+
+            <TextView
+                android:id="@+id/text_message_timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCC"
+                android:textSize="10sp"
+                android:layout_marginEnd="6dp" />
+
+            <ImageView
+                android:id="@+id/icon_sent"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/one_check"
+                android:visibility="gone"
+                android:layout_marginEnd="2dp"/>
+
+            <ImageView
+                android:id="@+id/icon_delivered"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/two_checks"
+                android:visibility="gone"
+                android:layout_marginEnd="2dp"/>
+
+            <ImageView
+                android:id="@+id/icon_redirected"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/three_checks"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

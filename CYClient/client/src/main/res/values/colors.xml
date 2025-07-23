@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="custom_black">#111B21</color>
+    <color name="custom_white">#E9EDEF</color>
+    <color name="custom_gray">#222D34</color>
+    <color name="gray_to_white">#635F5F</color>
+    <color name="red">#FF0008</color>
+    <color name="custom_blue">#0090FB</color>
+    <color name="darker_gray">#292727</color>
+    <color name="call_green">#04ff00</color>
+    <color name="call_red">#FF0000</color>
+    <color name="send_message_green">#00FF11</color>
+    <color name="notification_green">#00FF00</color>
+    <color name="olvid_white">#E6E8F5</color>
+</resources>
